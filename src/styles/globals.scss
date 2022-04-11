@@ -1,0 +1,83 @@
+// Fonts
+
+// Montserrat
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap");
+// Kenyan Coffee
+@font-face {
+  font-family: "Kenyan Coffee";
+  src: url("/assets/fonts/kenyan_coffee.ttf");
+}
+
+#__next {
+  min-height: 80vh;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  min-height: 100vh;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  // Add image as background, make it cover object fit
+  background-image: url("/assets/bg.png");
+
+  // Make the image centered, offset ech side by atleast 20px
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  backdrop-filter: blur(60px);
+  color: white;
+  padding: 60px 80px;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.btn {
+  padding: 16px 32px;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 150px;
+  font-weight: 600;
+  cursor: pointer;
+
+  &.primary {
+    background-color: white;
+    color: #170c42;
+  }
+
+  &.secondary {
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+  }
+}
+
+.spiderman {
+  background-image: url("/assets/spidey.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+
+  width: 536.73px;
+  height: 604.49px;
+  bottom: 0px;
+  z-index: 120;
+
+  pointer-events: none;
+  bottom: 0;
+  left: 55%;
+  transform: translateX(-50%);
+}

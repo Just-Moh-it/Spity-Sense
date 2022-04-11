@@ -1,0 +1,29 @@
+.wrapper {
+  .spiderman {
+    z-index: -1;
+    left: 80%;
+  }
+
+  .contentWrapper {
+    max-width: 55%;
+    height: 100%;
+    // background-color: red;
+
+    .content {
+      background-color: rgba(0, 0, 0, 0.2);
+      padding: 50px;
+
+      &::before,
+      &::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 500px;
+        height: 300px;
+        background-color: transparent;
+        z-index: -1;
+      }
+    }
+  }
+}

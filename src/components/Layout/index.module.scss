@@ -1,0 +1,22 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  min-height: 80vh;
+  height: 100%;
+
+  & > * {
+    width: 100%;
+  }
+
+  .main {
+    display: flex;
+    // align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    flex-grow: 1;
+    height: 100%;
+  }
+}

@@ -1,0 +1,71 @@
+.wrapper {
+  width: 200px;
+  height: 200px;
+
+  .hover {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    z-index: 10;
+    background: #ffffff30;
+    backdrop-filter: blur(1px);
+    -webkit-backdrop-filter: blur(1px);
+  }
+  .art {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background: #e9e9e9;
+  }
+  .drop {
+    position: absolute;
+    border-radius: 50%;
+    border: 1px solid transparent;
+    animation: drop 6s ease-in-out infinite;
+    -moz-animation: drop 6s ease-in-out infinite;
+    -webkit-animation: drop 6s ease-in-out infinite;
+  }
+  /*MULTI DROP*/
+
+  .art .drop:nth-child(2) {
+    animation-delay: 1.5s;
+  }
+  .art .drop:nth-child(3) {
+    animation-delay: 3s;
+  }
+  .art .drop:nth-child(4) {
+    animation-delay: 4.5s;
+  }
+  .art .drop:nth-child(5) {
+    animation-delay: 7s;
+  }
+  .art .drop:nth-child(6) {
+    animation-delay: 8.5s;
+  }
+  .art .drop:nth-child(7) {
+    animation-delay: 10s;
+  }
+  @keyframes drop {
+    0% {
+      width: 0px;
+      height: 0px;
+      opasity: 1;
+      box-shadow: 0px 0px 1px transparent, inset 0px 0px 1px transparent;
+    }
+    50% {
+      box-shadow: 20px 20px 150px #00000080, inset 20px 20px 150px #00000080;
+    }
+    75% {
+      opasity: 0.2;
+      box-shadow: 20px 20px 20px #00000080, inset 20px 20px 20px #00000080;
+    }
+    100% {
+      width: 60vw;
+      height: 60vw;
+      opacity: 0;
+      box-shadow: 0px 0px 0px #00000000, inset 0px 0px 0px #00000000;
+    }
+  }
+}

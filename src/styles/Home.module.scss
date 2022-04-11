@@ -1,0 +1,41 @@
+.wrapper {
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .content {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    width: max-content;
+    margin: auto;
+
+    .heroText {
+      font-family: "Kenyan Coffee", sans-serif;
+      text-transform: uppercase;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 344.864px;
+      line-height: 318px;
+      margin: 0;
+      text-align: center;
+    }
+
+    .link {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 30px;
+
+      span {
+        font-size: 16px;
+        text-transform: uppercase;
+        font-weight: 400;
+        margin-bottom: -8px;
+      }
+    }
+  }
+}

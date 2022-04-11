@@ -1,0 +1,34 @@
+.wrapper {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  display: block;
+  z-index: 14;
+  background-color: rgba(0, 0, 0, 0.6);
+  backdrop-filter: saturate(180%) blur(90px);
+  animation: blur-in 500ms 2s forwards; /* Important */
+
+  .closeBtn {
+    border: none;
+  }
+
+  .links {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 50px;
+    justify-content: space-between;
+    gap: 30px;
+  }
+}
+
+/* Let's define an animation: */
+@keyframes blur-in {
+  from {
+    backdrop-filter: blur(0px);
+  }
+  to {
+    backdrop-filter: blur(2px);
+  }
+}
