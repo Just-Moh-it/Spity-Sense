@@ -15,8 +15,9 @@ const ChatPage = ({ data }) => {
             <Ripples />
 
             {/* Content */}
-            {data.map((item) => (
+            {data.map((item, index) => (
               <div
+                key={index}
                 className={
                   (styles.convo,
                   { you: styles.right, spidy: styles.left }[item.speaker])
