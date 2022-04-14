@@ -15,8 +15,8 @@ const FooterComponent = () => {
       {/* Right */}
       <div className={styles.right}>
         {/* Copy right text */}Design:{" "}
-        <Link href="https://github.com/Just-Moh-it" passHref>
-          <a className={styles.footerLink}>Minh Phan</a>
+        <Link href="https://dribbble.com/phamduyminh" passHref>
+          <a className={styles.footerLink}>Minh Pham</a>
         </Link>
       </div>
     </footer>

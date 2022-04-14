@@ -2,10 +2,14 @@ import styles from "./index.module.scss";
 import { AnimatePresence, motion } from "framer-motion";
 
 const links = [
-  { name: "Home", to: "#", id: 1 },
-  { name: "About", to: "#", id: 2 },
-  { name: "Blog", to: "#", id: 3 },
-  { name: "Contact", to: "#", id: 4 },
+  { name: "Home", to: "/", id: 1 },
+  { name: "Open Chat", to: "/chat", id: 2 },
+  {
+    name: "About",
+    to: "https://dev.to/just_moh_it/introducing-spitey-sense-simulate-conversations-with-spider-man-using-gpt-3-and-deepgram-4d0j",
+    id: 3,
+  },
+  { name: "GitHub", to: "https://github.com/Just-Moh-it/Spity-Sense", id: 4 },
 ];
 
 const itemVariants = {
