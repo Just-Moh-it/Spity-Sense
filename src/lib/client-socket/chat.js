@@ -1,5 +1,7 @@
 import initRoom from "./initRoom";
 import setupRemoteAudio from "./setupRemoteAudio";
-import setupRealtimeTranscription from "./setupRealtimeTranscript"; 
+import setupRealtimeTranscription from "./setupRealtimeTranscript";
 
-export default { initRoom, setupRemoteAudio, setupRealtimeTranscription };
+const exports = { initRoom, setupRemoteAudio, setupRealtimeTranscription };
+
+export default exports;

@@ -27,7 +27,7 @@ export default function Home() {
             <Link href="/chat" passHref>
               <a className={styles.link}>
                 {/* Play Icon */}
-                <Image src="/assets/play.svg" width="70" height="70" />
+                <Image src="/assets/play.svg" width="70" height="70" alt="Start Chat" />
 
                 {/* Text */}
                 <span>Start chatting</span>

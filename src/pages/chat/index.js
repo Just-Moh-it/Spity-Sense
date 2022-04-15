@@ -93,7 +93,7 @@ const ChatPage = ({ data }) => {
       createRecorder();
       handleWsConnection();
     }
-  }, []);
+  }, [isSocketConnected]);
 
   const handleSubmit = async (e) => {
     e.preventDefault();
