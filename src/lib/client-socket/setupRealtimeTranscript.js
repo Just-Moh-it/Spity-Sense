@@ -1,18 +1,12 @@
 import Transcript from "./Transcript";
 
-function setupRealtimeTranscript({
-  socket,
-  setLiveTranscript,
-  recorder,
-}) {
+function setupRealtimeTranscript({ socket, recorder, addMessage }) {
   socket.on("can-open-mic", () => {
-    console.log("Mic Opened");
     recorder.start();
   });
 
   recorder.ondataavailable = (e) => {
     socket.emit("microphone-stream", e.buffer);
-    console.log("Mic Opened");
   };
 
   const transcript = new Transcript();
@@ -20,7 +14,10 @@ function setupRealtimeTranscript({
   socket.on("transcript-result", (jsonFromServer) => {
     transcript.addServerAnswer(jsonFromServer);
 
-    setLiveTranscript(transcript.getString());
+    addMessage({
+      type: "prompt",
+      line: transcript.getString().join(" ").trim(),
+    });
   });
 }
 

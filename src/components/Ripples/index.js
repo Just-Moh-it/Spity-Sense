@@ -7,9 +7,13 @@ const Ripples = () => {
     animationData: RipplesLottie,
   };
   return (
-    <>
-      <Lottie options={defaultOptions} height={400} width={400} />
-    </>
+    <div className={styles.wrapper}>
+      <div className={styles.lottieWrapper}>
+        <div className={styles.lottieWrapperChildren}>
+          <Lottie options={defaultOptions} height={200} width={200} />
+        </div>
+      </div>
+    </div>
   );
 };
 

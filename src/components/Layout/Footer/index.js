@@ -8,7 +8,7 @@ const FooterComponent = () => {
       <div className={styles.left}>
         {/* Copy right text */}
         <Link href="https://github.com/Just-Moh-it" passHref>
-          <a className={styles.footerLink}>&copy; Mohit Yadav</a>
+          <a className={styles.footerLink}>Made with &lt;3 by Mohit</a>
         </Link>
       </div>
 

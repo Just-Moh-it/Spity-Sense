@@ -21,8 +21,6 @@ const ioHandler = (req, res) => {
 
     // Listen for active connections
     io.on("connect", (socket) => {
-      console.log("Hello");
-
       // Handle all the aftermath and the subsequent connections from ws
       handle_connection({ socket, io });
     });

@@ -3,6 +3,7 @@ import Layout from "../components/Layout";
 import styles from "../styles/Home.module.scss";
 import Link from "next/link";
 import Image from "next/image";
+import { motion } from "framer-motion";
 
 export default function Home() {
   return (
@@ -19,7 +20,10 @@ export default function Home() {
       <Layout>
         <div className={styles.wrapper}>
           {/* Spiderman Image */}
-          <div className="spiderman"></div>
+          <motion.div
+            className="spiderman"
+            layoutId="spiderman"
+          ></motion.div>
           {/* Spiderman - headings */}
           <div className={styles.content}>
             <h1 className={styles.heroText}>Spider-Man</h1>
@@ -27,7 +31,12 @@ export default function Home() {
             <Link href="/chat" passHref>
               <a className={styles.link}>
                 {/* Play Icon */}
-                <Image src="/assets/play.svg" width="70" height="70" alt="Start Chat" />
+                <Image
+                  src="/assets/play.svg"
+                  width="70"
+                  height="70"
+                  alt="Start Chat"
+                />
 
                 {/* Text */}
                 <span>Start chatting</span>
