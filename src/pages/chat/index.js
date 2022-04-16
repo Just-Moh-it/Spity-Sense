@@ -153,10 +153,10 @@ const ChatPage = ({ data }) => {
     <Layout>
       <div className={styles.wrapper}>
         {/* Spiderman Image */}
-        <motion.div
+        <div
           className={["spiderman", styles.spiderman].join(" ")}
           layoutId="spiderman"
-        ></motion.div>
+        ></div>
         {/* Spiderman - headings */}
         <div className={styles.contentWrapper}>
           <motion.div

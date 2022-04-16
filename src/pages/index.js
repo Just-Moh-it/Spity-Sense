@@ -20,10 +20,10 @@ export default function Home() {
       <Layout>
         <div className={styles.wrapper}>
           {/* Spiderman Image */}
-          <motion.div
+          <div
             className="spiderman"
             layoutId="spiderman"
-          ></motion.div>
+          ></div>
           {/* Spiderman - headings */}
           <div className={styles.content}>
             <h1 className={styles.heroText}>Spider-Man</h1>
