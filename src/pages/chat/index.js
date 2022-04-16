@@ -201,7 +201,11 @@ const ChatPage = ({ data }) => {
                 <div className={styles.welcomeWidget}>
                   {/* Icon */}
                   <div className={styles.image}>
-                    <Image src={"/assets/mic.svg"} layout="fill" />
+                    <Image
+                      src={"/assets/mic.svg"}
+                      alt="Microphone"
+                      layout="fill"
+                    />
                   </div>
                   <h1>Spidy is listening</h1>
                   <p>Start speaking bud...</p>
