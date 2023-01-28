@@ -79,7 +79,7 @@ Don't forget to give the project a star! Thanks again!
 
 # 👋 Reach Out
 
-You can reach out to Mohit Yadav, the main creator of the app (for now) at mail ([mohit@mohityadav.codes](mailto:mohit@mohityadav.codes)), [Twitter](https://twitter.com/Just_Moh_it) or [Discord](https://discord.gg/cqNbdEmazR)
+You can reach out to Mohit Yadav, the main creator of the app (for now) at mail ([yo@mohitya.dev](mailto:yo@mohitya.dev)), [Twitter](https://twitter.com/Just_Moh_it) or [Discord](https://discord.gg/cqNbdEmazR)
 
 <table>
   <tr>
@@ -96,7 +96,7 @@ You can reach out to Mohit Yadav, the main creator of the app (for now) at mail 
       </a>
     </td>
     <td>
-      <a href="https://mohityadav.codes">
+      <a href="https://mohitya.dev">
         <img src="https://user-images.githubusercontent.com/48997634/153762079-d420fac9-ea94-48a9-b1ab-be045b83bef4.png" alt="Visit website">
         <p align="center">Awesome projects</p>
       </a>
