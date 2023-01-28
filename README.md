@@ -20,6 +20,12 @@
   </p>
 </div>
 
+# 🛑⚠️ DISCLAIMER
+
+> When I wrote the code for this project, only me and god knew what the hell I was doing. Now I guess only god knows.
+
+This project isn't maintained 🥲, and requests to fix broken functionality on the app won't be welcome. Though if you'd want to make a pull request to improve the project, you're free to! 🤗
+
 <!-- ABOUT THE PROJECT -->
 
 # 💁 About The Project
