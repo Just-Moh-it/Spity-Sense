@@ -6,7 +6,7 @@ const links = [
   { name: "Open Chat", to: "/chat", id: 2 },
   {
     name: "About",
-    to: "https://dev.to/just_moh_it/introducing-spitey-sense-simulate-conversations-with-spider-man-using-gpt-3-and-deepgram-4d0j",
+    to: "https://dev.to/just_moh_it/introducing-spitey-sense-simulate-conversations-with-spider-man-using-gpt-3-and-deepgram-1ph2",
     id: 3,
   },
   { name: "GitHub", to: "https://github.com/Just-Moh-it/Spity-Sense", id: 4 },
